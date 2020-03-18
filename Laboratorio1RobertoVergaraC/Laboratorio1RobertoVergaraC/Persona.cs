@@ -9,6 +9,12 @@ namespace Laboratorio1RobertoVergaraC
     public class Persona
     {
         public string Name;
+        public string Surname;
 
+        public void Lanzar(int a, int b)
+        {
+            Random rdn = new Random();
+            Console.WriteLine(rdn.Next(a, b));
+        }
     }
 }

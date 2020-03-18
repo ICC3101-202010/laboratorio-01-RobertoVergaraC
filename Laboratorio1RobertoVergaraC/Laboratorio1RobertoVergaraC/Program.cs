@@ -10,11 +10,13 @@ namespace Laboratorio1RobertoVergaraC
     {
         static void Main(string[] args)
         {
-            var person = new Persona();
-            person.Name = "Roberto Vergara C";
-            Console.WriteLine(person);
+            var me = new Persona();
+            me.Name = "Roberto";
+            me.Surname = "Vergara";
+            int a = 0;
+            int b = 3;
+            me.Lanzar(a, b);
             Console.ReadLine();
-
         }
     }
 }
