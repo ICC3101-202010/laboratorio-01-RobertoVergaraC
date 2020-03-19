@@ -11,6 +11,12 @@ namespace Laboratorio1RobertoVergaraC
         public string Name;
         public string Surname;
 
+        public Persona(string name, string surname)
+        {
+            this.Name = name;
+            this.Surname = surname;
+        }
+
         public void Lanzar(int a, int b)
         {
             Random rdn = new Random();
