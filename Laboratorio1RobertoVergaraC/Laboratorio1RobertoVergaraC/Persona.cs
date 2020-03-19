@@ -8,8 +8,8 @@ namespace Laboratorio1RobertoVergaraC
 {
     public class Persona
     {
-        public string Name;
-        public string Surname;
+        private string Name;
+        private string Surname;
 
         public Persona(string name, string surname)
         {

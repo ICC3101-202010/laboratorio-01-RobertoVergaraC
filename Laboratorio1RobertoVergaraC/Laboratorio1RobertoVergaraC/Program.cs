@@ -10,7 +10,7 @@ namespace Laboratorio1RobertoVergaraC
     {
         static void Main(string[] args)
         {
-            var person = new Persona("Bob", "Kunga");
+            Persona person = new Persona("Bob", "Kunga");
 
             int a = 0;
             int b = 3;
