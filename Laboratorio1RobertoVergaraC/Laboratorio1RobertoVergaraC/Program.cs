@@ -15,7 +15,7 @@ namespace Laboratorio1RobertoVergaraC
             int a = 0;
             int b = 3;
             person.Lanzar(a, b);
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
